@@ -24,7 +24,7 @@
 <body>
 
     <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
               <a class="navbar-brand text-center" href="#home">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,8 +51,8 @@
     <!-- End Navbar -->
 
     <!-- Name Title & Icons -->
-    <div class="jumbotron lead container-fluid justify-content-center bg-secondary">
-        <div class="lead-content justify-content-center py-5">
+    <div id="my-box" class="top-box jumbotron lead container-fluid justify-content-center">
+        <div id="lead-content" class="justify-content-center py-5">
             <h1 class="text-center">Anthony Angeles</h1>
             <h2 class="text-center">Web Developer</h2>
             <div class="social-links text-center" >
@@ -65,12 +65,12 @@
                         <!--<i class="bi bi-linkedin" ></i>-->
                     </a>
             </div>
-          </div>
+        </div>
     </div>
     <!-- End Name Title & Icons -->
 
     <!-- About Me Section -->
-    <div class="about row">
+    <div id="about-section" class="row mx-auto">
       <div class="col-4 d-inline-block">
           <img class="rounded-circle mx-3 my-5"
           style="width: 10rem; height: 10rem;"
@@ -111,35 +111,37 @@
     <!-- End My Skills Section -->
 
     <!-- Projects Section -->
-    <div class="ml-3" id="projects">
-      <h1 class="projects-text" style="margin-left: 2rem">Projects</h1>
-    </div>
-    <!-- Cards Section -->
-    <div class="row">
-      <div class="col">
-        <div class="card mb-3 mx-auto" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="project-1">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div id="projects">
+      <div class="ml-3">
+        <h1 class="projects-text" style="margin-left: 2rem">Projects</h1>
+      </div>
+      <!-- Cards Section -->
+      <div id="project-cards"class="row">
+        <div class="col">
+          <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="project-1">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card mb-3 mx-auto" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="project-2">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col">
+          <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="project-2">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card mb-3 mx-auto" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="project-3">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col">
+          <div class="card mb-3 mx-auto" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="project-3">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -148,7 +150,8 @@
 
     <!-- Contact Section -->
     <footer class="contact page-footer" id="contact">
-      <h1 class="footer">Contact Me</h1>
+      <h1 class="footer">Contact</h1>
+      <p>Let connect! I'm currently seeking full-time, part-time or contract opportunities. Click on the envelope icon and get in touch with me!</p>
       <a href="mailto:angel02338@yahoo.com">
         <i class="fas fa-envelope fa-2x"></i>
         <!--<i class="bi bi-envelope"></i>-->
