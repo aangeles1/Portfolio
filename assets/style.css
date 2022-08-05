@@ -10,6 +10,48 @@ body{
     width: 100%;
     border: solid #131315 10px;
     padding: 5px;
+    background-color: #131315;
+}
+
+#smallnavbar{
+    color: white;
+}
+
+#home-link{
+    color: antiquewhite;
+}
+#home-link:hover{
+    color: red;
+}
+
+#skills-link{
+    color: antiquewhite;
+}
+#skills-link:hover{
+    color: red;
+}
+
+#projects-link{
+    color: antiquewhite;
+}
+#projects-link:hover{
+    color: red;
+}
+
+#contact-link{
+    color: antiquewhite;
+}
+#contact-link:hover{
+    color: red;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+    opacity: 0.5;
+    border-radius: 5px;
 }
 
 #my-box{
